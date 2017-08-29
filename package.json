@@ -1,0 +1,24 @@
+{
+  "name": "idf_search_api",
+  "version": "0.1.0",
+  "description": "독립운동 검색 API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "독립운동"
+  ],
+  "author": "Moonsun Choi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "co": "^4.6.0",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.18",
+    "https": "^1.0.0",
+    "fs": "0.0.2",
+    "crypto": "0.0.3",
+    "mongoskin": "^2.1.0"
+  }
+}
